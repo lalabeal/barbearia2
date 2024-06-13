@@ -1,5 +1,5 @@
 header {
-  background: #751490;
+  background-color: #d1c7e1;
   padding: 20px 0;
 }
 
@@ -9,7 +9,7 @@ header {
   margin: 0 auto;
 }
 
-nav {
+nav{
   position: absolute;
   top: 110px;
   right: 0;
@@ -18,7 +18,7 @@ nav {
 nav li{
   display: inline;
   margin-left: 15px;
-}
+    }
 
 nav a{
   color: #000000;
@@ -26,10 +26,10 @@ nav a{
   font-weight: bold;
   font-size: 22px;
   text-transform: uppercase;
-}
+}  
 
 nav a:hover{
-  color: #C78C19;
+  color: gold;
   text-decoration: underline;
 }
 
@@ -56,18 +56,18 @@ nav a:hover{
   font-weight: bold;
 }
 
-.produto-descricao{
+.produtos-descricao{
   font-size: 18px;
 }
 
-.produto-preco{
+.produtos-preco{
   font-size: 22px;
   font-weight: bold;
-  margin: 10px 0 0 0;
+  margin-top: 10px 0 0 0;
 }
 
 .produtos li:hover{
-  border-color: #C78C19;
+  border-color: gold;
 }
 
 .produtos li:hover h2{
@@ -75,7 +75,7 @@ nav a:hover{
 }
 
 .produtos li:active{
-  border-color: #088C19;
+  border-color: #8a16fe;
 }
 
 footer{
@@ -85,23 +85,66 @@ footer{
 }
 
 .copyright{
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 13px;
   margin-top: 20px;
 }
 
 main{
-   width: 940px;
-  margin: 40px auto;
+  width: 940px;
+  margin: 0 auto;
 }
 
 form{
   margin: 40px 0;
 }
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 10px;
+}
+
 .input-padrao{
   display: block;
   margin-bottom: 20px;
-  padding: 10px 25px; 
+  padding: 10px 25px;
   width: 50%;
-  
+}
+
+.checkbox{
+  margin: 20px 0;
+}
+
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  background: #ffbb00;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+.enviar:hover{
+  background: #ff9500;
+  transform: scale(1.1);
+}
+
+table{
+  margin: 20px 0 40px;
+}
+thead{
+  background: #555555;
+  color: white;
+  font-weight: bold;
+}
+
+th, td{
+  border: 2px solid #000000;
+  padding: 10px;
+  text-align: center;
+
 }
